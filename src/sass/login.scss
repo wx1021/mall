@@ -1,0 +1,179 @@
+@import 'public.scss';
+.head,.banner,.bottom{
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 120px;
+    .head{
+        width: 1200px;
+        height: 120px;
+        a{
+            float: left;
+            margin-top: 20px;
+            img{
+                cursor: pointer;
+                width: 344px;
+                height: 76px;
+            }
+        }
+        p{
+            float: right;
+            line-height: 120px;
+            font-size: 13px;
+            color: rgb(149, 149, 149);
+        }
+    }
+}
+// banner
+.banner{
+    overflow: hidden;
+    left: 0;
+    margin-top: 0;
+    background: url(../img/login_te.jpg) no-repeat center center;
+    background-size: cover;
+    width: 1200px;
+    height: 600px;
+    cursor: pointer;
+    .login{
+        width: 400px;
+        float: right;
+        margin-top: 100px;
+        border: 1px solid #f2f2f1;
+        p{
+            width: 100%;
+            height: 56px;
+            background: rgb(250, 250, 252);
+            font-family: '黑体';
+            font-size: 16px;
+            color: #333333;
+            line-height: 56px;
+            display: inline-block;
+            cursor: pointer;
+            .lo_left{
+                width: 90px;
+                height: 100%;
+                text-align: center;
+                float: left;
+                font-family: '黑体';
+                border: 1px solid #eeeeee;
+                box-sizing: border-box;
+                border-bottom: none;
+                background: #fff;
+            }
+            .lo_right{
+                width: 310px;
+                height: 100%;
+                float: left;
+                text-indent: 20px;
+                border-bottom: 1px solid #eeeeee;
+            }
+        }
+        .bottom{
+            width: 312px;
+            margin-top: 23px;
+            .bottom_login{
+                display: block;
+                input{
+                    width: 300px;
+                    height: 36px;
+                    border: 1px solid #deded3;
+                    line-height: 36px;
+                    border-radius: 4px;
+                    margin-left: 10px;
+                    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+                    font-size: 13px;
+                    text-indent: 10px;
+                    outline: none;
+                    font-family: '黑体';
+                }
+                .pwd{
+                    margin-top: 10px;
+                }
+                .code{
+                    height: 38px;
+                    margin-top: 10px;
+                    .co{
+                        width: 94px;
+                        float: left;
+                        margin-right: 6px;
+                    }
+                    img{
+                        float: left;
+                        cursor: pointer;
+                    }
+                    a{
+                        color: #1EAA39;
+                        float: left;
+                        padding-left: 5px;
+                        line-height: 38px;
+                        font-size: 14px;
+                        font-family: '黑体';
+                    }
+                }
+                .remember{
+                    margin-top: 20px;
+                    p{
+                        width: 60px;
+                        height: 16px;
+                        line-height: 16px;
+                        display: inline;
+                        font-size: 14px;
+                        line-height: 16px;
+                        vertical-align: middle;
+                        float: left;
+                        margin-left: 10px;
+                        .rem{
+                            width: 13px;
+                            height: 13px;
+                            float: left;
+                            display: inline;
+                            margin-right: 5px;
+                            margin-left: 0;
+                            margin-top: 2px;
+                        }
+                    }
+                    span{
+                        float: right;
+                        font-size: 14px;
+                        line-height: 14px;
+                        color: #1EAA39;
+                        font-family: '黑体';
+                    }
+                }
+            }
+            .bottom_code{
+                display: none;
+            }
+            .button{
+                margin-left: 10px;
+                display: block;
+                #btn{
+                    width: 300px;
+                    height: 50px;
+                    line-height: 50px;
+                    background: url(../img/login_btn.jpg) no-repeat top center;
+                    border: none;
+                    color: #FFF;
+                    font-size: 16px;
+                    cursor: pointer;
+                    margin-top: 20px;
+                }
+            }
+            h3{
+                font-size: 14px;
+                color: #333333;
+                font-weight: normal;
+                font-family: '黑体';
+                line-height: 21px;
+                margin-top: 10px;
+                margin-bottom: 45px;
+                margin-left: 10px;
+                a{
+                    color: #1eaa39;
+                }
+            }
+            
+        }
+    }
+}

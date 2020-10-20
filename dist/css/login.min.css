@@ -1,0 +1,357 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "黑体";
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+footer {
+  width: 100%;
+  height: 673px;
+}
+
+footer .foot-first {
+  width: 100%;
+  height: 98px;
+  border-bottom: 1px solid #eeeeee;
+  float: left;
+}
+
+footer .foot-first ul {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+footer .foot-first ul li {
+  width: 300px;
+  height: 70px;
+  margin-top: 30px;
+  float: left;
+  display: inline;
+}
+
+footer .foot-first ul li img {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  float: left;
+  margin-right: 5px;
+}
+
+footer .foot-first ul li p {
+  display: inline-block;
+  width: 170px;
+  height: 30px;
+  margin-left: 5px;
+  color: #444444;
+  font-size: 18px;
+  font-family: '黑体';
+}
+
+footer .foot-first ul li span {
+  display: block;
+  font-size: 14px;
+  color: #999999;
+  height: 14px;
+  font-weight: normal;
+  font-family: '黑体';
+}
+
+footer .foot-second {
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+}
+
+footer .foot-second ul {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+footer .foot-second ul li {
+  width: 200px;
+  margin-top: 30px;
+  display: inline-block;
+  float: left;
+}
+
+footer .foot-second ul li h4 {
+  font-size: 16px;
+  text-align: left;
+  color: #199733;
+}
+
+footer .foot-second ul li a {
+  height: 24px;
+  line-height: 24px;
+  color: #666666;
+  font-size: 12px;
+  display: block;
+}
+
+footer .foot-third {
+  width: 1200px;
+  height: 52px;
+  padding: 20px;
+  font-size: 12px;
+  line-height: 26px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+footer .foot-third a {
+  margin-right: 18px;
+  color: #666;
+  float: left;
+}
+
+footer .foot-four {
+  height: 67px;
+  margin: 10px auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #666666;
+}
+
+footer .foot-four p {
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+
+footer .foot-five {
+  width: 576px;
+  height: 49px;
+  margin: 0 auto;
+}
+
+footer .foot-five img {
+  margin-top: 10px;
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
+
+.head, .banner, .bottom {
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+}
+
+header .head {
+  width: 1200px;
+  height: 120px;
+}
+
+header .head a {
+  float: left;
+  margin-top: 20px;
+}
+
+header .head a img {
+  cursor: pointer;
+  width: 344px;
+  height: 76px;
+}
+
+header .head p {
+  float: right;
+  line-height: 120px;
+  font-size: 13px;
+  color: #959595;
+}
+
+.banner {
+  overflow: hidden;
+  left: 0;
+  margin-top: 0;
+  background: url(../img/login_te.jpg) no-repeat center center;
+  background-size: cover;
+  width: 1200px;
+  height: 600px;
+  cursor: pointer;
+}
+
+.banner .login {
+  width: 400px;
+  float: right;
+  margin-top: 100px;
+  border: 1px solid #f2f2f1;
+}
+
+.banner .login p {
+  width: 100%;
+  height: 56px;
+  background: #fafafc;
+  font-family: '黑体';
+  font-size: 16px;
+  color: #333333;
+  line-height: 56px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.banner .login p .lo_left {
+  width: 90px;
+  height: 100%;
+  text-align: center;
+  float: left;
+  font-family: '黑体';
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-bottom: none;
+  background: #fff;
+}
+
+.banner .login p .lo_right {
+  width: 310px;
+  height: 100%;
+  float: left;
+  text-indent: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.banner .login .bottom {
+  width: 312px;
+  margin-top: 23px;
+}
+
+.banner .login .bottom .bottom_login {
+  display: block;
+}
+
+.banner .login .bottom .bottom_login input {
+  width: 300px;
+  height: 36px;
+  border: 1px solid #deded3;
+  line-height: 36px;
+  border-radius: 4px;
+  margin-left: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  font-size: 13px;
+  text-indent: 10px;
+  outline: none;
+  font-family: '黑体';
+}
+
+.banner .login .bottom .bottom_login .pwd {
+  margin-top: 10px;
+}
+
+.banner .login .bottom .bottom_login .code {
+  height: 38px;
+  margin-top: 10px;
+}
+
+.banner .login .bottom .bottom_login .code .co {
+  width: 94px;
+  float: left;
+  margin-right: 6px;
+}
+
+.banner .login .bottom .bottom_login .code img {
+  float: left;
+  cursor: pointer;
+}
+
+.banner .login .bottom .bottom_login .code a {
+  color: #1EAA39;
+  float: left;
+  padding-left: 5px;
+  line-height: 38px;
+  font-size: 14px;
+  font-family: '黑体';
+}
+
+.banner .login .bottom .bottom_login .remember {
+  margin-top: 20px;
+}
+
+.banner .login .bottom .bottom_login .remember p {
+  width: 60px;
+  height: 16px;
+  line-height: 16px;
+  display: inline;
+  font-size: 14px;
+  line-height: 16px;
+  vertical-align: middle;
+  float: left;
+  margin-left: 10px;
+}
+
+.banner .login .bottom .bottom_login .remember p .rem {
+  width: 13px;
+  height: 13px;
+  float: left;
+  display: inline;
+  margin-right: 5px;
+  margin-left: 0;
+  margin-top: 2px;
+}
+
+.banner .login .bottom .bottom_login .remember span {
+  float: right;
+  font-size: 14px;
+  line-height: 14px;
+  color: #1EAA39;
+  font-family: '黑体';
+}
+
+.banner .login .bottom .bottom_code {
+  display: none;
+}
+
+.banner .login .bottom .button {
+  margin-left: 10px;
+  display: block;
+}
+
+.banner .login .bottom .button #btn {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  background: url(../img/login_btn.jpg) no-repeat top center;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.banner .login .bottom h3 {
+  font-size: 14px;
+  color: #333333;
+  font-weight: normal;
+  font-family: '黑体';
+  line-height: 21px;
+  margin-top: 10px;
+  margin-bottom: 45px;
+  margin-left: 10px;
+}
+
+.banner .login .bottom h3 a {
+  color: #1eaa39;
+}

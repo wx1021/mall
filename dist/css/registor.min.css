@@ -1,0 +1,269 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, hr, ul, ol, td, input, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "黑体";
+  font-weight: normal;
+  background: #f8f8f7;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  display: block;
+}
+
+.head, .content {
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  background: #fff;
+}
+
+header .head {
+  width: 990px;
+  height: 120px;
+}
+
+header .head .a_img {
+  width: 344px;
+  height: 76px;
+  float: left;
+  margin-top: 20px;
+}
+
+header .head .a_img img {
+  cursor: pointer;
+  width: 344px;
+  height: 76px;
+}
+
+header .head p {
+  width: 276px;
+  height: 120px;
+  float: right;
+  line-height: 120px;
+  font-size: 13px;
+  color: #959595;
+  display: inline;
+}
+
+header .head p .please_login {
+  margin-right: 16px;
+}
+
+header .head p span a {
+  color: #1eaa39;
+}
+
+.banner img {
+  width: 100%;
+  height: 100px;
+}
+
+.content {
+  width: 990px;
+  height: 600px;
+  padding-bottom: 50px;
+  background: #fff;
+}
+
+.content .regi {
+  width: 990px;
+  height: 56px;
+  line-height: 56px;
+  border: 1px solid #f8f8f7;
+}
+
+.content .regi h2 {
+  display: inline;
+  float: left;
+  font-size: 16px;
+  margin-left: 50px;
+  color: #333333;
+  font-weight: normal;
+  font-family: '黑体';
+}
+
+.content .regi h3 {
+  display: inline;
+  float: right;
+  font-weight: normal;
+  font-size: 16px;
+  margin-right: 50px;
+  color: #333333;
+  font-family: '黑体';
+}
+
+.content .regi h3 a {
+  color: #1eaa39;
+}
+
+.content .regi_code {
+  width: 446px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 78px;
+  color: #666666;
+  font-size: 13px;
+  line-height: 36px;
+  float: left;
+}
+
+.content .regi_code .one {
+  height: 36px;
+  margin-bottom: 30px;
+  line-height: 36px;
+}
+
+.content .regi_code .one .sp {
+  width: 120px;
+  float: left;
+  text-align: right;
+  display: inline;
+}
+
+.content .regi_code .one .sp span {
+  color: #F00;
+  margin-right: 5px;
+}
+
+.content .regi_code .one .code_phone {
+  width: 290px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #deded3;
+  border-radius: 4px;
+  float: left;
+  padding-left: 10px;
+  outline: none;
+}
+
+.content .regi_code .one #phone {
+  width: 114px;
+  margin-right: 5px;
+}
+
+.content .regi_code .one #message {
+  width: 130px;
+}
+
+.content .regi_code .one img {
+  float: left;
+  cursor: pointer;
+}
+
+.content .regi_code .one a {
+  color: #1EAA39;
+  padding-left: 5px;
+  line-height: 38px;
+  font-size: 14px;
+  font-family: '黑体';
+}
+
+.content .regi_code .one #get_message {
+  width: 110px;
+  height: 38px;
+  color: #1EAA39;
+  border: 1px solid #1EAA39;
+  border-radius: 4px;
+  background: #fff;
+  margin-left: 10px;
+  outline: none;
+}
+
+.content .regi_code .one p {
+  float: right;
+  width: 145px;
+  line-height: 36px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 94px 20px 0;
+}
+
+.content .regi_code #sure_pwd {
+  display: block;
+  margin-top: 70px;
+  clear: both;
+}
+
+.content .regi_code .check {
+  margin-left: 120px;
+}
+
+.content .regi_code .check .agree {
+  margin-right: 5px;
+  margin-top: 11px;
+  vertical-align: top;
+}
+
+.content .regi_code .check span .user {
+  color: #3fae45;
+}
+
+.content .regi_code .btn {
+  width: 264px;
+  height: 40px;
+  background: #1EAA39;
+  color: #FFF;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 120px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+}
+
+.content .right_img {
+  width: 378px;
+  float: left;
+  margin-top: 30px;
+}
+
+.content .right_img img {
+  float: right;
+}
+
+.bottom {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.bottom .foot {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.bottom .foot .foot-fourth p {
+  text-align: center;
+  font-size: 13px;
+  color: #959595;
+  line-height: 24px;
+}
+
+.bottom .foot .foot-fif {
+  margin: 20px 0 0 0;
+}
+
+.bottom .foot .foot-fif img {
+  width: 110px;
+  height: 49px;
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
